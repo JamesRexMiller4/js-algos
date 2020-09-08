@@ -31,3 +31,11 @@ airports.forEach(addNode);
 routes.forEach(route => addEdge(...route));
 
 console.log(adjacencyList);
+
+module.exports = {
+  adjacencyList,
+  addNode,
+  addEdge,
+  airports,
+  routes
+};
